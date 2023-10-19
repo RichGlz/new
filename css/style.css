@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* ******************************* */
+/* ***** INICIAN ESTILOS CSS ***** */
+/* Tamaño fuentes */
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+#cursos .card {
+  flex-direction: row;
+}
+#cursos .card img {
+  width: 30%;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px lightgray;
+}
+
+#inicio {
+  background-image: url("../images/fondo-sm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 37rem;
+}
+
+#inicio {
+  font-size: 12px;
+}
+
+.hr-primary {
+  border: 0;
+  height: 2.2px;
+  background: #007bff;
+  background-image: linear-gradient(to right, #ccc, #007bff, #ccc);
+}
+
+.servicios {
+  background: #fff; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fff, #2aacf0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#map {
+  border: 0;
+}
+
+.cc {
+  font-size: 3rem;
+}
+
+#footer {
+  font-size: 0.95rem;
+}
+
+/* ***** TERMINAN ESTILOS CSS ***** */
+/* ******************************* */
+/* XS */
+@media (max-width: 576px) {
+  #inicio .d-flex #inicio-cont {
+    width: 51%;
+    padding-right: 4%;
+    padding-top: 23%;
+  }
+  .nav-txt {
+    font-size: 1rem;
+  }
+  span.nav-txt {
+    margin-top: 0.4rem;
+  }
+  .btn-llamada {
+    padding-top: 13%;
+    padding-right: 8%;
+  }
+}
+/* SM */
+@media (min-width: 576px) {
+  #inicio {
+    background-image: url("../images/fondo.jpg");
+  }
+  #inicio .d-flex #inicio-cont {
+    width: 55%;
+    padding-left: 5%;
+    padding-top: 15%;
+  }
+}
+/* MD */
+@media (min-width: 768px) {
+  #inicio-cont {
+    font-size: 16px;
+  }
+  .cc {
+    font-size: 4rem;
+  }
+}
+/* LG or higher */
+@media (min-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .servicios-medicos {
+    font-size: 1.75rem;
+  }
+}/*# sourceMappingURL=style.css.map */
